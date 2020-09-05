@@ -42,6 +42,5 @@ public class BeerLoader implements CommandLineRunner {
                     .build());
 
         }
-        System.out.println("Loaded: " + beerRepository.count());
     }
 }
